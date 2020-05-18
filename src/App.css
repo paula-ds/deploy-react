@@ -36,3 +36,34 @@
     transform: rotate(360deg);
   }
 }
+
+
+table.GeneratedTable {
+width:70%;
+align-items:center; 
+margin: 0 auto;
+background-color:#FFFFFF;
+border-collapse:collapse;border-width:1px;
+border-color:#336600;
+border-style:outset;
+color:#009900;
+}
+
+table.GeneratedTable td, table.GeneratedTable th {
+border-width:1px;
+border-color:#336600;
+border-style:outset;
+padding:3px;
+}
+
+table.GeneratedTable thead {
+background-color:#CCFF99;
+}
+
+tr {
+  min-height: 100px;
+}
+td {
+  border: 1px solid red;
+  overflow-y: scroll;
+}
